@@ -19,6 +19,9 @@ import queue
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+from weaver_memory_engine import WeaverMemoryEngine
+
+
 class EphemeralWorker:
     """
     A stateless, ephemeral worker agent shell. 
@@ -56,12 +59,13 @@ class EphemeralWorker:
         return result
 
 class CentralCoordinator:
-    def __init__(self, runtime_root="./weaver_runtime"):
+    def __init__(self, runtime_root="./weaver_runtime", memory_engine=None):
         self.runtime_root = runtime_root
         self.modules_dir = os.path.join(runtime_root, "1_universal_modules_weaver")
         self.memory_dir = os.path.join(runtime_root, "2_universal_memory_weaver")
         self.blackboard_path = os.path.join(self.memory_dir, "blackboard.json")
         self.lineage_path = os.path.join(self.memory_dir, "lineage_tree.json")
+        self.memory_engine = memory_engine or WeaverMemoryEngine(runtime_root=runtime_root)
         
         print("\n============================================================")
         print("   THE WEAVER ENGINE CORE - CENTRAL COORDINATOR INITIALIZED ")
@@ -81,6 +85,43 @@ class CentralCoordinator:
                 json.dump(data, f, indent=4)
         except Exception as e:
             print(f"[Coordinator Error] Blackboard write collision skipped: {str(e)}")
+
+    def record_swarm_event(self, task_id, event_type, payload, worker_id=None):
+        """Persist a swarm lifecycle event in LTM and its cryptographic lineage ledger."""
+        event_key = f"swarm:{task_id}:{event_type}:{worker_id or 'all'}:{time.time_ns()}"
+        target = f"swarm:{task_id}"
+        summary = json.dumps(
+            {
+                "event_type": event_type,
+                "task_id": task_id,
+                "worker_id": worker_id,
+                "payload": payload,
+            },
+            sort_keys=True,
+            default=str,
+        )
+        try:
+            self.memory_engine.store(
+                key=event_key,
+                content=summary,
+                scope="episodic",
+                tags=f"swarm,{event_type}",
+                metadata={
+                    "event_type": event_type,
+                    "task_id": task_id,
+                    "worker_id": worker_id,
+                },
+                source_agent="central_coordinator",
+            )
+            self.memory_engine.record_lineage(
+                agent_id="central_coordinator",
+                action_type=event_type,
+                target_resource=target,
+                payload_summary=summary[:500],
+                status="SUCCESS",
+            )
+        except Exception as exc:
+            print(f"[Coordinator Error] LTM event recording failed: {exc}")
 
     def log_lineage_evolution(self, task_id, structure_delta):
         """Records self-mutation lineages to track framework modifications."""
@@ -105,6 +146,12 @@ class CentralCoordinator:
         The Decomposition Engine & Swarm Fabric active run loop.
         Breaks tasks down and splits execution across multiple parallel worker threads.
         """
+        task_id = f"swarm-{time.time_ns()}"
+        self.record_swarm_event(
+            task_id,
+            "swarm_start",
+            {"massive_task": massive_task, "chunk_count": len(payload_chunks), "skill_name": skill_name},
+        )
         print(f"\n[Coordinator] Ingesting major payload sequence: '{massive_task}'")
         print(f"[Coordinator] Target Skill Required: '{skill_name}.md'")
         
@@ -127,11 +174,17 @@ class CentralCoordinator:
         
         swarm_results = []
         
-        with ThreadPoolExecutor(max_workers=num_workers) as executor:
+        with ThreadPoolExecutor(max_workers=max(1, num_workers)) as executor:
             # Provision workers and map execution futures
             future_to_worker = {}
             for idx, chunk in enumerate(payload_chunks):
                 worker = EphemeralWorker(id=idx+1, assigned_skill_path=skill_file_path)
+                self.record_swarm_event(
+                    task_id,
+                    "task_dispatch",
+                    {"chunk": chunk, "skill_path": skill_file_path},
+                    worker_id=worker.id,
+                )
                 future = executor.submit(worker.execute_subtask, chunk)
                 future_to_worker[future] = worker
                 
@@ -141,8 +194,20 @@ class CentralCoordinator:
                 try:
                     data_out = future.result()
                     swarm_results.append(data_out)
+                    self.record_swarm_event(
+                        task_id,
+                        "worker_completion",
+                        data_out,
+                        worker_id=worker_instance.id,
+                    )
                 except Exception as exc:
                     print(f"  [Swarm Worker-{worker_instance.id}] Generated runtime execution crash: {exc}")
+                    self.record_swarm_event(
+                        task_id,
+                        "worker_completion",
+                        {"status": "FAILURE", "error": str(exc)},
+                        worker_id=worker_instance.id,
+                    )
 
         print(f"[Coordinator] All swarm tasks resolved. Consolidating outputs to Memory Blackboard...")
         
@@ -150,8 +215,14 @@ class CentralCoordinator:
         self.write_to_blackboard("last_swarm_output", swarm_results)
         self.write_to_blackboard("system_status", "ONLINE")
         self.write_to_blackboard("active_swarms", 0)
+        self.record_swarm_event(
+            task_id,
+            "swarm_complete",
+            {"result_count": len(swarm_results), "status": "SUCCESS"},
+        )
         
         print("[Coordinator] Workflow successfully closed out. Swarms safely dissolved from execution space.")
+        return swarm_results
 
 if __name__ == "__main__":
     # Ensure the target workspace folders are available

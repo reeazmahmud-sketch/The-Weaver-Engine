@@ -1,0 +1,45 @@
+{
+    "schema_version": "2.0.0",
+    "masks": [
+        {
+            "mask": "path_001",
+            "canonical_path": "/Users/reeazmahmud/sandbox/reeaz-terminal-projects/The-Weaver-Engine/weaver_runtime/1_universal_modules_weaver",
+            "resource_type": "directory",
+            "permissions": "rw",
+            "environment": "sandbox",
+            "description": "Pillar 1 Universal Modules Directory",
+            "version": 1,
+            "updated_at": 1789438251.630641
+        },
+        {
+            "mask": "path_002",
+            "canonical_path": "/Users/reeazmahmud/sandbox/reeaz-terminal-projects/The-Weaver-Engine/weaver_runtime/2_universal_memory_weaver",
+            "resource_type": "directory",
+            "permissions": "rw",
+            "environment": "sandbox",
+            "description": "Pillar 2 Universal Memory Directory",
+            "version": 1,
+            "updated_at": 1789438251.630641
+        },
+        {
+            "mask": "path_003",
+            "canonical_path": "/Users/reeazmahmud/sandbox/reeaz-terminal-projects/The-Weaver-Engine/weaver_runtime/3_universal_gateway_server",
+            "resource_type": "directory",
+            "permissions": "rw",
+            "environment": "sandbox",
+            "description": "Pillar 3 Universal Gateway Server Directory",
+            "version": 1,
+            "updated_at": 1789438251.630641
+        },
+        {
+            "mask": "path_root",
+            "canonical_path": "/Users/reeazmahmud/sandbox/reeaz-terminal-projects/The-Weaver-Engine/weaver_runtime",
+            "resource_type": "directory",
+            "permissions": "rw",
+            "environment": "sandbox",
+            "description": "Weaver Engine Runtime Root Directory",
+            "version": 1,
+            "updated_at": 1789438251.630641
+        }
+    ]
+}
