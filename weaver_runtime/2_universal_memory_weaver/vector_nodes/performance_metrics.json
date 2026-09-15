@@ -1,0 +1,32 @@
+[
+    {
+        "timestamp": "21:26:11",
+        "swarm_load": 0,
+        "status_code": 2,
+        "raw_status": "ONLINE"
+    },
+    {
+        "timestamp": "21:26:12",
+        "swarm_load": 0,
+        "status_code": 2,
+        "raw_status": "ONLINE"
+    },
+    {
+        "timestamp": "21:26:13",
+        "swarm_load": 0,
+        "status_code": 2,
+        "raw_status": "ONLINE"
+    },
+    {
+        "timestamp": "21:26:14",
+        "swarm_load": 0,
+        "status_code": 2,
+        "raw_status": "ONLINE"
+    },
+    {
+        "timestamp": "21:26:15",
+        "swarm_load": 0,
+        "status_code": 2,
+        "raw_status": "ONLINE"
+    }
+]

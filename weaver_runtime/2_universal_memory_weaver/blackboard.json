@@ -1,0 +1,30 @@
+{
+    "system_status": "ONLINE",
+    "active_swarms": 0,
+    "last_swarm_output": [
+        {
+            "worker_id": 1,
+            "status": "SUCCESS",
+            "processed_payload": "Processed via [data_parser.md]: 'Feed_Alpha: NYC Shipping Log Dumps #0129'",
+            "timestamp": 1789002861.703698
+        },
+        {
+            "worker_id": 2,
+            "status": "SUCCESS",
+            "processed_payload": "Processed via [data_parser.md]: 'Feed_Beta: London Thames River Terminal Data Streams'",
+            "timestamp": 1789002861.703928
+        },
+        {
+            "worker_id": 3,
+            "status": "SUCCESS",
+            "processed_payload": "Processed via [data_parser.md]: 'Feed_Gamma: Rotterdam Euro-Hub Container Telemetry Vectors'",
+            "timestamp": 1789002861.703967
+        },
+        {
+            "worker_id": 4,
+            "status": "SUCCESS",
+            "processed_payload": "Processed via [data_parser.md]: 'Feed_Delta: Singapore Port Authority Inbound Cargo Ledgers'",
+            "timestamp": 1789002861.704035
+        }
+    ]
+}
