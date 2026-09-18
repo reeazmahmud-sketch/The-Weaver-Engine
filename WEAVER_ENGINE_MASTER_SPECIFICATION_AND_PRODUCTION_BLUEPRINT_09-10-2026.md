@@ -18,6 +18,15 @@ visualizations, and strategic AI capability summary.
 **Classification:** Advanced Metamorphic Multi-Agent Framework  
 **Core Paradigm:** Asymmetric Runtime Harness with Swarm Elasticity and Continuous Self-Healing  
 **Date:** 09-10-2026
+**Documentation tier:** **Aspirational architecture + roadmap**
+
+## Claim status snapshot
+
+| Claim class | Status |
+|-------------|--------|
+| Three-pillar architecture model | **Implemented (partial scaffold)** |
+| Sub-15ms self-healing / full ROI metrics | **Unverified in-repo benchmark evidence** |
+| 9-yard roadmap phases | **Planned** |
 
 This document compiles three production manuals into one permanent knowledge-base asset:
 

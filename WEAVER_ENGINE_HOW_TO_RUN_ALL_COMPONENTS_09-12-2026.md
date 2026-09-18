@@ -17,6 +17,7 @@ full-stack smoke order; Mac notes on short-lived processes.
 **System version:** 2.0.0-R2026  
 **Doc version:** 2.0.1-R2026  
 **Project root:** `/Users/reeazmahmud/sandbox/The-Weaver-Engine`
+**Documentation tier:** **As-built implementation/runbook**
 
 ---
 

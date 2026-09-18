@@ -4,6 +4,15 @@
 **Status:** In Progress / Planning & Staged Execution Phase  
 **Author:** Copilot Assistant (in collaboration with System Architect @reeazmahmud-sketch)  
 **Repository Location:** `/Users/reeazmahmud/sandbox/reeaz-terminal-projects/The-Weaver-Engine/`  
+**Documentation tier:** **Aspirational roadmap/plan**
+
+## Claim status snapshot
+
+| Claim class | Status |
+|-------------|--------|
+| Listed as-built Python modules and current tests | **Implemented (partial system)** |
+| 5-phase live product rollout and acceptance matrix | **Planned** |
+| Lollipop operational security claims in this roadmap | **Unverified here until end-to-end tests exist** |
 
 ---
 

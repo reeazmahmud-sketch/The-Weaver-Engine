@@ -117,7 +117,7 @@ The minimum signal set (`self_critique_complete`, `security_outcome`, `complianc
 | Pipeline sequencing and route (deploy vs block vs hold) | Averaging Fail into Pass |
 | Team 5 notify on Go; Vulnerability Report routing on No-Go | Team 5 value/ROI judgment |
 
-Distinct from **Master Orchestrator** ([`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) **v0.2.0-DRAFT**) — five-team handoff contracts, not Team 4 force-role synthesis.
+Distinct from **Master Orchestrator** ([`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) **v1.0.0-APPROVED-DOCS-ONLY**) — five-team handoff contracts, not Team 4 force-role synthesis.
 
 ---
 

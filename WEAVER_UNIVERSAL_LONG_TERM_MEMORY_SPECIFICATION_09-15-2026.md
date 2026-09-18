@@ -3,6 +3,15 @@
 **Document Date:** 09-15-2026  
 **Classification:** Universal Polyglot Multi-Agent Memory & Zero-Touch Configuration Subsystem  
 **Target Environments:** macOS Native Apps (AppleScript/JXA/Swift), Terminal CLI, WebApps, and Multi-Agent Swarms  
+**Documentation tier:** **Mixed: as-built implementation + aspirational roadmap**
+
+## Claim status snapshot
+
+| Claim class | Status |
+|-------------|--------|
+| SQLite/FTS5 memory engine and CLI/socket APIs | **Implemented** |
+| Performance claims (sub-millisecond / <2ms) | **Unverified benchmark in this doc** |
+| Embeddings/federation/auto-distillation upgrades | **Planned** |
 
 ---
 

@@ -16,6 +16,7 @@ and run steps.
 **System Version:** 2.0.0-R2026  
 **Project:** The-Weaver-Engine  
 **Script:** `weaver_system_extension.py`
+**Documentation tier:** **As-built implementation/runbook**
 
 ## Purpose
 

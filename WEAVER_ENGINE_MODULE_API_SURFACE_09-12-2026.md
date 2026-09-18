@@ -17,6 +17,7 @@ Notes simulation vs production.
 **System version:** 2.0.0-R2026  
 **Doc version:** 2.0.1-R2026  
 **Scope:** `weaver_core.py`, `weaver_coordinator.py`, `weaver_gateway_pipeline.py`, `weaver_integration_runner.py`, `weaver_system_extension.py`, `weaver_logging_suite.py`
+**Documentation tier:** **As-built implementation/reference**
 
 ---
 

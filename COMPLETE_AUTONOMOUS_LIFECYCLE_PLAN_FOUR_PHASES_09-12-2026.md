@@ -10,7 +10,7 @@ Complete Autonomous Lifecycle Plan — Admin’s detailed four forward phases
 (Discovery → Execution → Optimization → Governance) with primary outputs,
 tech/logic, and roles; plus inter-phase governance (Self-Critique, dual audit,
 Vulnerability Report loop). Notes Team 5 after Governance. Cites existing
-Master Orchestrator 0.2.0-DRAFT (do not re-draft). Phase-0 not coded. No Docker.
+Master Orchestrator 1.0.0-APPROVED-DOCS-ONLY (do not re-draft). Phase-0 not coded. No Docker.
 v1.0.1: corpus dedup — §1 table, §6.4 diagram, and §9 non-goals now cross-
 reference AUTONOMOUS_AGENTIC_LIFECYCLE_FIVE_TEAM_FRAMEWORK §1.4 (canonical)
 instead of restating; four-phase-specific elaboration (§2–§5) preserved.
@@ -19,11 +19,11 @@ instead of restating; four-phase-specific elaboration (§2–§5) preserved.
 
 # Complete Autonomous Lifecycle Plan — Four Phases
 
-> **TOP NOTE — Master Orchestrator 0.2.0-DRAFT already exists**  
+> **TOP NOTE — Master Orchestrator 1.0.0-APPROVED-DOCS-ONLY is canonical**  
 > Canonical four-phase delivery-spine handoffs (including Supervisor / Team3 Self-Critique → Team4 gates, Vulnerability Report, and Team4→Team5 notify) already live in:  
-> - [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) (**v0.2.0-DRAFT**)  
+> - [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) (**v1.0.0-APPROVED-DOCS-ONLY**)  
 > - [`MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md`](MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md)  
-> **Do not draft another Master Orchestrator.** Admin action: **APPROVE / REVISE / REJECT**.  
+> **Do not draft another Master Orchestrator.** Approval is already recorded; follow approved docs-only contract.  
 > Deployment Orchestrator (Team 4 ship-path Supervisor) ≠ Master Orchestrator (five-team handoff prompt).
 
 **Classification:** Complete four-phase delivery-spine plan (Teams 1–4) + inter-phase governance  
@@ -36,6 +36,7 @@ instead of restating; four-phase-specific elaboration (§2–§5) preserved.
 **Project root:** `/Users/reeazmahmud/sandbox/The-Weaver-Engine`  
 **Document version:** 1.0.1  
 **Date filed:** 09-12-2026
+**Documentation tier:** **Normative policy/protocol (lifecycle governance)**
 
 **Primary claim:** The Autonomous Agentic Lifecycle’s **forward delivery spine** is four phases — **Discovery → Execution → Optimization → Governance** — each with a primary **output**, **tech/logic**, and **roles**. Inter-phase governance binds Optimization↔Governance via **Pre-Audit Self-Critique**, **dual-lens audit** (Security Sentinel + Compliance Officer), and the **Vulnerability Report (VR) loop**. **Team 5 (Growth & Evolution / Value Optimization)** exists **after Governance** in the five-team companion docs; it is **not** a fifth forward-build phase in this plan.
 
@@ -215,7 +216,7 @@ Team 3 → Team 4 with hotfix + Self-Critique. Open unresolved VR → **no re-su
 
 ## 6. Inter-phase governance (Self-Critique · dual audit · VR loop)
 
-This section is the **binding glue** between Phase 3 and Phase 4 (and re-entry). Master Orchestrator **0.2.0-DRAFT** already encodes the handoff packets for human session operators — **cite only; do not re-draft**.
+This section is the **binding glue** between Phase 3 and Phase 4 (and re-entry). Master Orchestrator **1.0.0-APPROVED-DOCS-ONLY** encodes the handoff packets for human session operators — **cite only; do not re-draft**.
 
 ### 6.1 Pre-Audit Self-Critique (mandatory gate)
 
@@ -310,7 +311,7 @@ From [`OPERATIONAL_GUIDELINES_FOR_SUCCESS_09-12-2026.md`](OPERATIONAL_GUIDELINES
 Plan-specific addenda not already in §1.4.3:
 
 * Does **not** re-author full Team 5 Value Optimization content (post-Go pointer only — see §7).  
-* This plan cites Master Orchestrator **0.2.0-DRAFT** specifically (see TOP NOTE) — not a later version number; do not assume it supersedes §1.4.3's citation.
+* This plan cites Master Orchestrator **1.0.0-APPROVED-DOCS-ONLY** specifically (see TOP NOTE).
 
 ---
 
@@ -318,7 +319,7 @@ Plan-specific addenda not already in §1.4.3:
 
 | Document | Role |
 |----------|------|
-| [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) | **0.2.0-DRAFT** — exists; link only; Admin **APPROVE / REVISE / REJECT** |
+| [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) | **1.0.0-APPROVED-DOCS-ONLY** — canonical; link only |
 | [`LIFECYCLE_PHASE_OUTPUTS_TEAMS_1_TO_4_09-12-2026.md`](LIFECYCLE_PHASE_OUTPUTS_TEAMS_1_TO_4_09-12-2026.md) | Phase-output contract companion |
 | [`FIVE_TEAM_LIFECYCLE_AND_GOVERNANCE_COMPREHENSIVE_REPORT_09-12-2026.md`](FIVE_TEAM_LIFECYCLE_AND_GOVERNANCE_COMPREHENSIVE_REPORT_09-12-2026.md) | Five-team + governance compile |
 | [`AUTONOMOUS_AGENTIC_LIFECYCLE_FIVE_TEAM_FRAMEWORK_09-12-2026.md`](AUTONOMOUS_AGENTIC_LIFECYCLE_FIVE_TEAM_FRAMEWORK_09-12-2026.md) | Parent five-team framework |
@@ -336,6 +337,6 @@ Plan-specific addenda not already in §1.4.3:
 | Status | Active complete four-phase plan (docs only) |
 | Phase-0 | **Not coded** — Admin manual gate |
 | Docker | **Out of scope** unless Admin decides |
-| Orchestrator | Link **0.2.0-DRAFT** only — Admin **APPROVE / REVISE / REJECT**; **no new orchestrator** |
+| Orchestrator | Link **1.0.0-APPROVED-DOCS-ONLY** only; **no new orchestrator** |
 | Changes in 1.0.0 | Admin four phases (outputs / tech-logic / roles) + inter-phase governance (Self-Critique, dual audit, VR loop) + Team 5 after Governance note + Master Orchestrator TOP NOTE |
 | Changes in 1.0.1 | **Corpus dedup (Cluster E):** §1 summary table, §6.4 flowchart, and §9 non-goals replaced with cross-references to canonical `AUTONOMOUS_AGENTIC_LIFECYCLE_FIVE_TEAM_FRAMEWORK_09-12-2026.md` §1.4; four-phase-specific elaboration (§2–§5 logic/roles/handoffs) preserved unchanged |

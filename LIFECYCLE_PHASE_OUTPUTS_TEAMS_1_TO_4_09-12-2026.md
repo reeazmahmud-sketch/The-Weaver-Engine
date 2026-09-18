@@ -20,9 +20,9 @@ this file's distinct consumed-by/hold-failure-path detail preserved.
 # Lifecycle Phase Outputs — Teams 1 to 4
 
 > **Master Orchestrator Prompt already exists** and was revised after audit:  
-> - [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) (**0.2.0-DRAFT**)  
+> - [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) (**1.0.0-APPROVED-DOCS-ONLY**)  
 > - [`MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md`](MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md)  
-> It already covers Supervisor coordination including Team3 Self-Critique → Team4 deployment gates. **Do not draft another.** Admin action: **APPROVE / REVISE / REJECT**.
+> It already covers Supervisor coordination including Team3 Self-Critique → Team4 deployment gates. **Do not draft another.** Admin action history preserved in audit trail.
 
 **Classification:** Lifecycle phase-output contract (Teams 1–4)  
 **Lifecycle parent:** [`AUTONOMOUS_AGENTIC_LIFECYCLE_FIVE_TEAM_FRAMEWORK_09-12-2026.md`](AUTONOMOUS_AGENTIC_LIFECYCLE_FIVE_TEAM_FRAMEWORK_09-12-2026.md) (**v1.1.7**)  
@@ -59,7 +59,7 @@ this file's distinct consumed-by/hold-failure-path detail preserved.
 | [`TEAM_3_SUPPORT_OPTIMIZATION_PHASE_09-12-2026.md`](TEAM_3_SUPPORT_OPTIMIZATION_PHASE_09-12-2026.md) | Optimization + Pre-Audit Self-Critique |
 | [`TEAM_3_HOTFIX_MODULES_09-12-2026.md`](TEAM_3_HOTFIX_MODULES_09-12-2026.md) | Team 3 primary Optimization output |
 | [`TEAM_4_GATEKEEPERS_GOVERNANCE_PHASE_09-12-2026.md`](TEAM_4_GATEKEEPERS_GOVERNANCE_PHASE_09-12-2026.md) | Governance parent |
-| [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) | **0.2.0-DRAFT** — exists; link only; do **not** recreate |
+| [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) | **1.0.0-APPROVED-DOCS-ONLY** — exists; link only; do **not** recreate |
 | [`WEAVER_ENGINE_DOCUMENTATION_INDEX_09-12-2026.md`](WEAVER_ENGINE_DOCUMENTATION_INDEX_09-12-2026.md) | **INDEX** |
 | [`WEAVER_ENGINE_CONTINUE_HERE_09-12-2026.md`](WEAVER_ENGINE_CONTINUE_HERE_09-12-2026.md) | Session handoff |
 
@@ -107,7 +107,7 @@ Canonical branching (also: [`TEAM_4_PROCESS_OUTCOMES_GO_VS_NO_GO_09-12-2026.md`]
 * Orchestrator does **not** override peer vetoes or invent green from averages.  
 * Pass-rate (when scanners exist) is evidence input, **not** the decision function.  
 * Technical Go ≠ Team 5 value/ROI ≠ CEO ethics halt.  
-* **Deployment Orchestrator ≠ Master Orchestrator** (**0.2.0-DRAFT** handoff prompt).
+* **Deployment Orchestrator ≠ Master Orchestrator** (**1.0.0-APPROVED-DOCS-ONLY** handoff prompt).
 
 ---
 
@@ -123,7 +123,7 @@ Canonical branching (also: [`TEAM_4_PROCESS_OUTCOMES_GO_VS_NO_GO_09-12-2026.md`]
 
 Self-Critique is a **prerequisite**, not a substitute for formal Sentinel/Compliance audit. Compare: [`TEAM_3_SELF_CRITIQUE_VS_TEAM4_VULNERABILITY_REPORT_09-12-2026.md`](TEAM_3_SELF_CRITIQUE_VS_TEAM4_VULNERABILITY_REPORT_09-12-2026.md).
 
-Master Orchestrator **0.2.0-DRAFT** already encodes Team3 Self-Critique → Team4 deployment-gate coordination for the human session operator — **link only; do not draft another orchestrator file.**
+Master Orchestrator **1.0.0-APPROVED-DOCS-ONLY** already encodes Team3 Self-Critique → Team4 deployment-gate coordination for the human session operator — **link only; do not draft another orchestrator file.**
 
 ---
 
@@ -158,5 +158,5 @@ Contract-specific addendum not already in §1.4.3:
 | Status | Active lifecycle phase-output companion (docs only) |
 | Phase-0 | **Not coded** — Admin manual gate |
 | Docker | **Out of scope** unless Admin decides |
-| Orchestrator | Link **0.2.0-DRAFT** only — Admin **APPROVE / REVISE / REJECT** |
+| Orchestrator | Link **1.0.0-APPROVED-DOCS-ONLY** only — approval gate closed |
 | Changes in 1.0.1 | **Corpus dedup (Cluster E):** §1 table, §2 governance-gate diagram, §5 non-goals replaced with cross-references to canonical `AUTONOMOUS_AGENTIC_LIFECYCLE_FIVE_TEAM_FRAMEWORK_09-12-2026.md` §1.4; consumed-by/hold-failure-path columns (this file's distinct output-artifact detail) preserved |
