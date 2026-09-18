@@ -26,10 +26,11 @@ Guidelines for Success, Teams 1–5 deep-dives, and Master Orchestrator Prompt
 **Project root:** `/Users/reeazmahmud/sandbox/The-Weaver-Engine`  
 **Date filed / expanded:** 09-12-2026  
 **Document version:** 1.1.8
+**Documentation tier:** **Normative policy/protocol (strategic governance)**
 
 ## Executive Summary
 
-**Master Orchestrator:** Already filed at [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) (v0.1.0-DRAFT). Status: awaiting Admin APPROVE / REVISE / REJECT. Do not re-draft unless Admin asks to revise.
+**Master Orchestrator:** Canonical file is [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) (**1.0.0-APPROVED-DOCS-ONLY**). Historical draft references are superseded. Do not re-draft unless Admin asks to revise.
 
 The **Autonomous Agentic Lifecycle** is an end-to-end framework designed to shift software from static monoliths into evolutionary, self-improving systems. It organizes the full life of an autonomous agent system across five specialized teams and three core operational guidelines.
 
@@ -79,7 +80,7 @@ This document records Admin’s strategic model, expands Team responsibilities a
 **Team 3 Support (Optimization):** [`TEAM_3_SUPPORT_OPTIMIZATION_PHASE_09-12-2026.md`](TEAM_3_SUPPORT_OPTIMIZATION_PHASE_09-12-2026.md) — real-time diagnosis, hotfix modules, Team5 feedback path, handoff to Gatekeepers.  
 **Team 4 Gatekeepers (Governance):** [`TEAM_4_GATEKEEPERS_GOVERNANCE_PHASE_09-12-2026.md`](TEAM_4_GATEKEEPERS_GOVERNANCE_PHASE_09-12-2026.md) — security, compliance, CI/CD, Go/No-Go; as-built: no real CI/CD yet.  
 **Team 5 Growth & Evolution Force (Value Optimization):** [`TEAM_5_GROWTH_EVOLUTION_VALUE_OPTIMIZATION_09-12-2026.md`](TEAM_5_GROWTH_EVOLUTION_VALUE_OPTIMIZATION_09-12-2026.md) — Metric Sentinel / Strategy Architect / Evolutionary Learner; logging suite partial map; evolutionary loop not coded.  
-**Master Orchestrator:** Already filed at [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) (v0.1.0-DRAFT). Status: awaiting Admin APPROVE / REVISE / REJECT. Do not re-draft unless Admin asks to revise.
+**Master Orchestrator:** Canonical file is [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) (**1.0.0-APPROVED-DOCS-ONLY**). Historical draft references are superseded. Do not re-draft unless Admin asks to revise.
 
 ### Cross-links
 
@@ -93,7 +94,7 @@ This document records Admin’s strategic model, expands Team responsibilities a
 | [`TEAM_3_SUPPORT_OPTIMIZATION_PHASE_09-12-2026.md`](TEAM_3_SUPPORT_OPTIMIZATION_PHASE_09-12-2026.md) | Team 3 Support Optimization — hotfix modules + Gatekeeper handoff |
 | [`TEAM_4_GATEKEEPERS_GOVERNANCE_PHASE_09-12-2026.md`](TEAM_4_GATEKEEPERS_GOVERNANCE_PHASE_09-12-2026.md) | Team 4 Gatekeepers Governance — CI/CD · security · Go/No-Go (not coded) |
 | [`TEAM_5_GROWTH_EVOLUTION_VALUE_OPTIMIZATION_09-12-2026.md`](TEAM_5_GROWTH_EVOLUTION_VALUE_OPTIMIZATION_09-12-2026.md) | Team 5 Growth & Evolution Force — Value Optimization deep-dive |
-| [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) | Already filed (v0.1.0-DRAFT) — awaiting Admin APPROVE / REVISE / REJECT; do not re-draft |
+| [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) | Canonical orchestrator contract (**1.0.0-APPROVED-DOCS-ONLY**); do not re-draft |
 | [`WEAVER_ENGINE_DOCUMENTATION_INDEX_09-12-2026.md`](WEAVER_ENGINE_DOCUMENTATION_INDEX_09-12-2026.md) | Docs + Python entrypoint index |
 | [`WEAVER_ENGINE_CONTINUE_HERE_09-12-2026.md`](WEAVER_ENGINE_CONTINUE_HERE_09-12-2026.md) | Session handoff pointer |
 | [`WEAVER_ENGINE_MASTER_ARCHITECTURE_MAP_09-12-2026.md`](WEAVER_ENGINE_MASTER_ARCHITECTURE_MAP_09-12-2026.md) | Process boundaries, data flows, open decisions |

@@ -11,7 +11,7 @@ Guidelines + Master Orchestrator status into one readable governance/lifecycle
 report. Exec summary; guidelines (modular, 2026, human-AI); each team mission +
 key artifacts; Team 4 deep (three roles, Self-Critique, Vulnerability Report,
 risk-signal Go/No-Go); Team 5 loop back to Team 1; open gaps / Phase-0 honesty;
-pointer to MASTER_ORCHESTRATOR 0.2.0-DRAFT + audit; full doc index pointers.
+pointer to MASTER_ORCHESTRATOR 1.0.0-APPROVED-DOCS-ONLY + audit history; full doc index pointers.
 Not slides. No Docker. No PowerPoint.
 
 ===============================================================================
@@ -27,6 +27,7 @@ Not slides. No Docker. No PowerPoint.
 **Project root:** `/Users/reeazmahmud/sandbox/The-Weaver-Engine`  
 **Report version:** 1.0.0  
 **Date filed:** 09-12-2026
+**Documentation tier:** **Normative policy/protocol (consolidated governance report)**
 
 **Purpose:** One place to read the five-team Autonomous Agentic Lifecycle, the three Operational Guidelines, each team’s mission and key artifacts, Team 4 governance depth (including risk-signal Go/No-Go), Team 5’s loop back to Team 1, Phase-0 honesty, and Master Orchestrator status—without claiming runtime automation that does not yet exist.
 
@@ -48,7 +49,7 @@ The **Autonomous Agentic Lifecycle** organizes product life across five speciali
 
 **Team 4 gate in one sentence:** Typed **risk signals** (not pass%) → **Approve (Go)** advances **CI/CD → Secure Production Deployment** and notifies Team 5; **Reject (No-Go)** opens a **Vulnerability Report** to Team 3; **Self-Critique is mandatory** before audit/synthesis.
 
-**Master Orchestrator:** [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) is **v0.2.0-DRAFT** (revised per [`MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md`](MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md)). Status: awaiting Admin **APPROVE / REVISE / REJECT**. Not live runtime. Distinct from Team 4 Deployment Orchestrator.
+**Master Orchestrator:** [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) is **v1.0.0-APPROVED-DOCS-ONLY**. Audit file remains historical trace. Not live runtime. Distinct from Team 4 Deployment Orchestrator.
 
 **Phase-0 honesty:** Weaver has a working Python foundation (core, coordinator, gateway, integration, console, logging suite) and a large **documentation** pack for Teams 1–5. Live five-team agents, real CI/CD, adversarial scanners, Vulnerability Report bus, and Team5→Team1 automation are **not coded**. Docker remains an Admin open decision—**not started from this report**.
 
@@ -279,8 +280,8 @@ Detail: [`AUTONOMOUS_AGENTIC_LIFECYCLE_FIVE_TEAM_FRAMEWORK_09-12-2026.md`](AUTON
 
 | Item | Path / state |
 |------|----------------|
-| **Prompt (revised)** | [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) — **v0.2.0-DRAFT** |
-| **Audit** | [`MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md`](MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md) — verdict **REVISE before APPROVE** (P0/+key P1 folded into 0.2.0-DRAFT) |
+| **Prompt (canonical)** | [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) — **v1.0.0-APPROVED-DOCS-ONLY** |
+| **Audit (historical trace)** | [`MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md`](MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md) — pre-approval review of older drafts |
 | **Team5↔CEO addendum** | [`MASTER_ORCHESTRATOR_TEAM5_CEO_HANDOFF_ADDENDUM_09-12-2026.md`](MASTER_ORCHESTRATOR_TEAM5_CEO_HANDOFF_ADDENDUM_09-12-2026.md) — **v0.1.1-DRAFT** |
 | **Admin action needed** | **APPROVE** / **REVISE** / **REJECT** |
 | **Runtime claim** | **None** — human session operator / standing instructions candidate only; not hooks/CI |
@@ -301,7 +302,7 @@ Distinct from Team 4 **Deployment Orchestrator** (force-role signal synthesis). 
 | Adversarial scanners / injection+leakage detectors | Scope + OPEN DESIGN GAPS | **No** |
 | Vulnerability Report bus | Schema yes | **No** |
 | Team5→Team1 evolutionary loop | Numbered steps yes | **No** |
-| Master Orchestrator | 0.2.0-DRAFT | Not live runtime |
+| Master Orchestrator | 1.0.0-APPROVED-DOCS-ONLY | Not live runtime |
 | Weaver foundation (core/coordinator/gateway/integration/console/logging) | Yes | **Yes (Phase-0)** |
 | Docker Compose | Open Admin decision | **Not built** (standing: wait for Admin) |
 
@@ -332,7 +333,7 @@ Related companion this session:
 3. Operational Guidelines ([`OPERATIONAL_GUIDELINES_FOR_SUCCESS_09-12-2026.md`](OPERATIONAL_GUIDELINES_FOR_SUCCESS_09-12-2026.md)).  
 4. Team 4 Force roles + risk-signal Go/No-Go.  
 5. Team 5 Value Optimization + loop §5.  
-6. Master Orchestrator audit + 0.2.0-DRAFT (Admin decision).  
+6. Master Orchestrator audit history + approved docs-only canonical prompt.  
 7. Index for any deeper companion.
 
 ---
@@ -343,6 +344,6 @@ Related companion this session:
 |-------|-------|
 | Version | 1.0.0 |
 | Status | Active comprehensive markdown report (not PowerPoint) |
-| Changes in 1.0.0 | Full Admin compile — Exec summary; guidelines trio; Teams 1–5 missions + key artifacts; Team 4 deep (roles, Self-Critique, VR, risk-signal Go/No-Go); Team5→Team1 loop; Phase-0 honesty; Master Orchestrator 0.2.0-DRAFT + audit; index pointers |
+| Changes in 1.0.0 | Full Admin compile — Exec summary; guidelines trio; Teams 1–5 missions + key artifacts; Team 4 deep (roles, Self-Critique, VR, risk-signal Go/No-Go); Team5→Team1 loop; Phase-0 honesty; Master Orchestrator draft/audit references; index pointers |
 
 *End of FIVE_TEAM_LIFECYCLE_AND_GOVERNANCE_COMPREHENSIVE_REPORT_09-12-2026.md (v1.0.0). Markdown report — not PowerPoint. No Docker.*

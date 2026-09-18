@@ -22,7 +22,7 @@ all related TEAM_4 deep-dives. Phase-0 not coded. No Docker / no slides.
 **Structured report:** [`TEAM_4_GOVERNANCE_STRUCTURED_REPORT_09-12-2026.md`](TEAM_4_GOVERNANCE_STRUCTURED_REPORT_09-12-2026.md) (**EXISTS**)  
 **Comprehensive report:** [`FIVE_TEAM_LIFECYCLE_AND_GOVERNANCE_COMPREHENSIVE_REPORT_09-12-2026.md`](FIVE_TEAM_LIFECYCLE_AND_GOVERNANCE_COMPREHENSIVE_REPORT_09-12-2026.md) (**EXISTS**)  
 **Release gates companion:** [`TEAM_4_GO_NO_GO_RELEASE_GATES_09-12-2026.md`](TEAM_4_GO_NO_GO_RELEASE_GATES_09-12-2026.md)  
-**Master Orchestrator (distinct):** [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) (**v0.2.0-DRAFT**) + audit [`MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md`](MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md). Admin: **APPROVE / REVISE / REJECT**. Do **not** re-draft from scratch.  
+**Master Orchestrator (distinct):** [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) (**v1.0.0-APPROVED-DOCS-ONLY**) + audit [`MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md`](MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md). Approval gate is closed in docs-only mode. Do **not** re-draft from scratch.  
 **Index:** [`WEAVER_ENGINE_DOCUMENTATION_INDEX_09-12-2026.md`](WEAVER_ENGINE_DOCUMENTATION_INDEX_09-12-2026.md)  
 **Continue-here:** [`WEAVER_ENGINE_CONTINUE_HERE_09-12-2026.md`](WEAVER_ENGINE_CONTINUE_HERE_09-12-2026.md)  
 **Project root:** `/Users/reeazmahmud/sandbox/The-Weaver-Engine`  
@@ -180,7 +180,7 @@ The full decision matrix / truth table and the "never averages a Fail into green
 | Role | Scope |
 |------|--------|
 | **Deployment Orchestrator** (this Step 4) | Technical ship clearance for **one** packet / module |
-| **Master Orchestrator** (**0.2.0-DRAFT**) | Five-team handoff contracts / session operator — awaiting Admin **APPROVE / REVISE / REJECT**; **not** re-drafted here |
+| **Master Orchestrator** (**1.0.0-APPROVED-DOCS-ONLY**) | Five-team handoff contracts / session operator — approved docs-only baseline; **not** re-drafted here |
 
 ---
 
@@ -211,7 +211,7 @@ The full decision matrix / truth table and the "never averages a Fail into green
 | [`TEAM_4_DEPLOYMENT_ORCHESTRATOR_GO_NO_GO_SIGNAL_SYNTHESIS_09-12-2026.md`](TEAM_4_DEPLOYMENT_ORCHESTRATOR_GO_NO_GO_SIGNAL_SYNTHESIS_09-12-2026.md) | Signal synthesis + precedence |
 | [`TEAM_3_SELF_CRITIQUE_VS_TEAM4_VULNERABILITY_REPORT_09-12-2026.md`](TEAM_3_SELF_CRITIQUE_VS_TEAM4_VULNERABILITY_REPORT_09-12-2026.md) | Pre-gate vs blocked-ship compare |
 | [`TEAM_3_REMEDIATION_PROMPT_INJECTION_AND_DATA_LEAKAGE_09-12-2026.md`](TEAM_3_REMEDIATION_PROMPT_INJECTION_AND_DATA_LEAKAGE_09-12-2026.md) | Team 3 numbered remediations |
-| [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) | **0.2.0-DRAFT** — APPROVE / REVISE / REJECT |
+| [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) | **1.0.0-APPROVED-DOCS-ONLY** — historical approval gate closed |
 | [`MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md`](MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md) | Audit that drove 0.2.0 revision |
 | [`AUTONOMOUS_AGENTIC_LIFECYCLE_FIVE_TEAM_FRAMEWORK_09-12-2026.md`](AUTONOMOUS_AGENTIC_LIFECYCLE_FIVE_TEAM_FRAMEWORK_09-12-2026.md) | Parent five-team lifecycle |
 | [`OPERATIONAL_GUIDELINES_FOR_SUCCESS_09-12-2026.md`](OPERATIONAL_GUIDELINES_FOR_SUCCESS_09-12-2026.md) | Modular / growth / human-AI policy |
@@ -246,7 +246,7 @@ Documenting this protocol does **not** mean Weaver runs scanners or CI/CD. Do **
 4. Run **Step 3** dual-lens (Sentinel + Officer).  
 5. Run **Step 4** synthesis → deploy **or** Vulnerability Report.  
 6. On re-entry after Report → restart at Step 1.  
-7. Master Orchestrator remains **0.2.0-DRAFT** — Admin **APPROVE / REVISE / REJECT**; do **not** recreate.  
+7. Master Orchestrator remains **1.0.0-APPROVED-DOCS-ONLY** — approval gate closed; do **not** recreate.  
 8. No Docker / no slides from this filing.
 
 ---
@@ -270,7 +270,7 @@ Documenting this protocol does **not** mean Weaver runs scanners or CI/CD. Do **
 | Parent | `TEAM_4_GATEKEEPERS_GOVERNANCE_PHASE_09-12-2026.md` |
 | Companion | `TEAM_4_GOVERNANCE_DEPLOYMENT_FORCE_ROLES_AND_PROTOCOL_09-12-2026.md` (roles depth; this file owns **strict 1–4 order** including Ingestion as Step 2) |
 | Reports | Structured **EXISTS**; Comprehensive **EXISTS** |
-| Orchestrator | `MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md` (**0.2.0-DRAFT**) |
+| Orchestrator | `MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md` (**1.0.0-APPROVED-DOCS-ONLY**) |
 | Source | Admin Team 4 standard workflow sequential Steps 1–4 (09-12-2026) |
 | Changes in 1.0.0 | Initial filing — Steps 1–4; full TEAM_4 cross-link catalog; Phase-0 honesty |
 | Changes in 1.0.1 | Corpus-duplication remediation: §1.1 Self-Critique field table, §4.1 decision matrix, and the §4.2 CI/CD stage list replaced with cross-references to `TEAM_4_GOVERNANCE_DEPLOYMENT_FORCE_ROLES_AND_PROTOCOL_09-12-2026.md` §3.1, `TEAM_4_DEPLOYMENT_ORCHESTRATOR_GO_NO_GO_SIGNAL_SYNTHESIS_09-12-2026.md` §5, and `TEAM_4_CICD_DEPLOYMENT_AND_GO_NO_GO_09-12-2026.md` §2 (canonical owners) — the §0 Steps 1–4 quick map and Ingestion-as-Step-2 framing retained as this doc's distinct Admin-facing sequential contribution |

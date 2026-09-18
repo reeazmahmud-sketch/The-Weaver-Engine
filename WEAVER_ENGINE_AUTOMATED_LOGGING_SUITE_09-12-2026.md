@@ -19,6 +19,7 @@ dashboard output.
 **Script:** [`weaver_logging_suite.py`](weaver_logging_suite.py)  
 **Class:** `AutomatedLoggingSuite`  
 **Project root:** `/Users/reeazmahmud/sandbox/The-Weaver-Engine`
+**Documentation tier:** **As-built implementation/runbook**
 
 ---
 

@@ -10,7 +10,7 @@ Team 4 Deployment Orchestrator role — release authority; CI/CD gates;
 risk-based Go/No-Go (not pass%); deploy or Vulnerability Report; synthesizes
 Security Sentinel + Compliance Officer after Pre-Audit Self-Critique;
 Supervisor Agent for ship-path sequencing. Phase-0 not coded. No Docker.
-Distinct from Master Orchestrator 0.2.0-DRAFT.
+Distinct from Master Orchestrator 1.0.0-APPROVED-DOCS-ONLY.
 
 ===============================================================================
 
@@ -27,7 +27,7 @@ Distinct from Master Orchestrator 0.2.0-DRAFT.
 **Vulnerability Report loop:** [`TEAM_4_VULNERABILITY_REPORT_AND_TEAM3_RESOLUTION_LOOP_09-12-2026.md`](TEAM_4_VULNERABILITY_REPORT_AND_TEAM3_RESOLUTION_LOOP_09-12-2026.md)  
 **Upstream Support / hotfixes:** [`TEAM_3_SUPPORT_OPTIMIZATION_PHASE_09-12-2026.md`](TEAM_3_SUPPORT_OPTIMIZATION_PHASE_09-12-2026.md) · [`TEAM_3_HOTFIX_MODULES_09-12-2026.md`](TEAM_3_HOTFIX_MODULES_09-12-2026.md)  
 **Structured report (optional pack):** [`TEAM_4_GOVERNANCE_STRUCTURED_REPORT_09-12-2026.md`](TEAM_4_GOVERNANCE_STRUCTURED_REPORT_09-12-2026.md)  
-**Master Orchestrator (distinct):** [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) (**0.2.0-DRAFT**)  
+**Master Orchestrator (distinct):** [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) (**1.0.0-APPROVED-DOCS-ONLY**)  
 **Index:** [`WEAVER_ENGINE_DOCUMENTATION_INDEX_09-12-2026.md`](WEAVER_ENGINE_DOCUMENTATION_INDEX_09-12-2026.md)  
 **Continue-here:** [`WEAVER_ENGINE_CONTINUE_HERE_09-12-2026.md`](WEAVER_ENGINE_CONTINUE_HERE_09-12-2026.md)  
 **Project root:** `/Users/reeazmahmud/sandbox/The-Weaver-Engine`  
@@ -233,7 +233,7 @@ Reuse Go/No-Go authority §5.1; Orchestrator role insists on:
 | Parent | `TEAM_4_GATEKEEPERS_GOVERNANCE_PHASE_09-12-2026.md` |
 | Peers | Security Sentinel; Compliance Officer; Go/No-Go authority; CI/CD deep-dive |
 | Companion | `TEAM_4_DEPLOYMENT_ORCHESTRATOR_GO_NO_GO_SIGNAL_SYNTHESIS_09-12-2026.md` |
-| Distinct from | `MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md` (0.2.0-DRAFT) |
+| Distinct from | `MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md` (1.0.0-APPROVED-DOCS-ONLY) |
 | Source | Admin content — release authority; CI/CD gates; risk-based Go/No-Go not pass%; deploy or Vulnerability Report; synthesizes Security Sentinel + Compliance Officer; after Self-Critique; Supervisor Agent (09-12-2026) |
 | Changes in 1.0.0 | Initial full role filing (expanded from thin card stub) |
 | Changes in 1.0.1 | Corpus-duplication remediation: §2 force-roles diagram/table, §4 wrong-vs-correct-framing table, and §6 synthesis truth table replaced with cross-references to `TEAM_4_DEPLOYMENT_ORCHESTRATOR_GO_NO_GO_SIGNAL_SYNTHESIS_09-12-2026.md` §§2, 5 and `TEAM_4_RISK_SIGNAL_GO_NO_GO_DECISIONS_09-12-2026.md` §1 (canonical owners) — §2.1 CI/CD-stage-to-role mapping and §4.1 risk-factor table retained as this doc's distinct role-level contribution |

@@ -8,7 +8,7 @@ VERSION: 1.0.1
 Description:
 Team 4 Phase-4 primary output — Secure Production Deployment. Frames
 Adversarial Security & CI/CD, Go criteria, No-Go → Vulnerability Report,
-Supervisor Self-Critique gate. Cites existing Master Orchestrator 0.2.0-DRAFT
+Supervisor Self-Critique gate. Cites existing Master Orchestrator 1.0.0-APPROVED-DOCS-ONLY
 (do not re-draft). Phase-0 not coded. No Docker.
 
 ===============================================================================
@@ -33,7 +33,7 @@ Supervisor Self-Critique gate. Cites existing Master Orchestrator 0.2.0-DRAFT
 **Relationship to canonical governance docs:** The "Self-Critique gate → dual-lens audit → risk-signal Go criteria" sequence itself is **canonical** in [`TEAM_4_GATEKEEPERS_GOVERNANCE_PHASE_09-12-2026.md`](TEAM_4_GATEKEEPERS_GOVERNANCE_PHASE_09-12-2026.md) and [`TEAM_4_GOVERNANCE_DEPLOYMENT_FORCE_ROLES_AND_PROTOCOL_09-12-2026.md`](TEAM_4_GOVERNANCE_DEPLOYMENT_FORCE_ROLES_AND_PROTOCOL_09-12-2026.md) (**not restated here**). This document's distinct value is framing **Secure Production Deployment as Team 4's Phase-4 primary output** — the peer-comparable deliverable alongside Team 1's blueprints, Team 2's reusable modules, Team 3's hotfix modules, and Team 5's Metric Sentinel signals (§1.3).
 
 > **CRITICAL — Master Orchestrator already exists.**  
-> Do **not** draft a new Master Orchestrator. The five-team handoff / Supervisor / Team3 Self-Critique → Team4 gate contracts already live in [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) (**v0.2.0-DRAFT**), revised per [`MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md`](MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md). Admin may **APPROVE / REVISE / REJECT** that draft only. This file is Team 4’s **Secure Production Deployment** primary-output contract — not a second orchestrator.
+> Do **not** draft a new Master Orchestrator. The five-team handoff / Supervisor / Team3 Self-Critique → Team4 gate contracts already live in [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) (**v1.0.0-APPROVED-DOCS-ONLY**), revised per [`MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md`](MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md). Approval gate is closed in docs-only mode. This file is Team 4’s **Secure Production Deployment** primary-output contract — not a second orchestrator.
 
 **Primary claim:** Team 4’s Phase-4 **primary output** is **Secure Production Deployment** — a recorded technical clearance that either **ships** a modular unit under audit trail + rollback, or **blocks** with a **Vulnerability Report** to Team 3. The path is gated by **Supervisor Self-Critique**, dual-lens **Adversarial Security & CI/CD**, and **risk-signal Go criteria** (not pass%).
 
@@ -85,13 +85,13 @@ Supervisor Self-Critique gate. Cites existing Master Orchestrator 0.2.0-DRAFT
 
 ### 2.2 Master Orchestrator binding (cite only — do not re-draft)
 
-Existing **0.2.0-DRAFT** already covers Supervisor / Team3→Team4 gates, including:
+Existing **1.0.0-APPROVED-DOCS-ONLY** already covers Supervisor / Team3→Team4 gates, including:
 
 * §2.3 Team 3 → Team 4 hotfix / emergency packet (11 fields + security deny-list)  
 * §2.4 Team 4 → Team 5 governance outcome packet (Go / No-Go / Conditional Go)  
 * §3 Go/No-Go gates (T4 technical ship; CEO Halt freeze)
 
-Admin action on that file: **APPROVE / REVISE / REJECT** — not recreate.
+Admin action history is complete; do not recreate.
 
 ---
 
@@ -146,7 +146,7 @@ The Go-vs-No-Go comparison table, the ordered reject path, and the end-to-end fl
 | **Compliance Officer** | Policy + business-logic clearance (or Fail → Report) |
 | **Deployment Orchestrator (Supervisor Agent)** | Enforces Self-Critique gate; synthesizes signals; records Go/No-Go; routes deploy **or** Report; notifies Team 5 |
 
-**Deployment Orchestrator ≠ Master Orchestrator.** Master Orchestrator = five-team session handoff DRAFT (**0.2.0-DRAFT**). Deployment Orchestrator = Team 4 ship-path Supervisor.
+**Deployment Orchestrator ≠ Master Orchestrator.** Master Orchestrator = approved docs-only five-team session handoff (**1.0.0-APPROVED-DOCS-ONLY**). Deployment Orchestrator = Team 4 ship-path Supervisor.
 
 ---
 
@@ -168,8 +168,8 @@ The Go-vs-No-Go comparison table, the ordered reject path, and the end-to-end fl
 | [`TEAM_3_SELF_CRITIQUE_VS_TEAM4_VULNERABILITY_REPORT_09-12-2026.md`](TEAM_3_SELF_CRITIQUE_VS_TEAM4_VULNERABILITY_REPORT_09-12-2026.md) | Pre-gate vs blocked-ship artifacts |
 | [`TEAM_3_HOTFIX_MODULES_09-12-2026.md`](TEAM_3_HOTFIX_MODULES_09-12-2026.md) | Upstream hotfix primary output |
 | [`TEAM_5_GROWTH_EVOLUTION_VALUE_OPTIMIZATION_09-12-2026.md`](TEAM_5_GROWTH_EVOLUTION_VALUE_OPTIMIZATION_09-12-2026.md) | Post-Go Metric Sentinel |
-| [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) | **v0.2.0-DRAFT** — cite only; Admin APPROVE/REVISE/REJECT |
-| [`MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md`](MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md) | Audit that produced 0.2.0-DRAFT |
+| [`MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md`](MASTER_ORCHESTRATOR_PROMPT_FIVE_TEAM_HANDOFFS_09-12-2026.md) | **v1.0.0-APPROVED-DOCS-ONLY** — cite only; approval gate closed |
+| [`MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md`](MASTER_ORCHESTRATOR_AUDIT_GAPS_AND_VULNERABILITIES_09-12-2026.md) | Audit that produced 1.0.0-APPROVED-DOCS-ONLY |
 | [`FIVE_TEAM_LIFECYCLE_AND_GOVERNANCE_COMPREHENSIVE_REPORT_09-12-2026.md`](FIVE_TEAM_LIFECYCLE_AND_GOVERNANCE_COMPREHENSIVE_REPORT_09-12-2026.md) | Lifecycle + Team 4 E2E companion |
 | [`WEAVER_ENGINE_DOCUMENTATION_INDEX_09-12-2026.md`](WEAVER_ENGINE_DOCUMENTATION_INDEX_09-12-2026.md) | Docs index |
 | [`WEAVER_ENGINE_CONTINUE_HERE_09-12-2026.md`](WEAVER_ENGINE_CONTINUE_HERE_09-12-2026.md) | Session handoff |
@@ -188,7 +188,7 @@ The Go-vs-No-Go comparison table, the ordered reject path, and the end-to-end fl
 | Vulnerability Report bus | **Not coded** — manual Admin records |
 | Deployment Orchestrator / Sentinel / Officer agents | **Not coded** |
 | Docker Compose | **Not built** — standing rule: wait for Admin |
-| Master Orchestrator | **0.2.0-DRAFT exists** — awaiting APPROVE / REVISE / REJECT; **not** live runtime |
+| Master Orchestrator | **1.0.0-APPROVED-DOCS-ONLY exists** — approved docs-only baseline (no pending approval gate); **not** live runtime |
 
 ---
 
@@ -200,6 +200,6 @@ The Go-vs-No-Go comparison table, the ordered reject path, and the end-to-end fl
 | Status | Active — Team 4 Phase-4 primary output contract |
 | Phase-0 | Not coded; Admin interim gate |
 | Docker | Do not start from this doc |
-| Master Orchestrator | Cite existing **0.2.0-DRAFT** only — do not re-draft |
+| Master Orchestrator | Cite existing **1.0.0-APPROVED-DOCS-ONLY** only — do not re-draft |
 | Changes in 1.0.0 | Initial filing |
 | Changes in 1.0.1 | Corpus-duplication remediation: §2 Self-Critique gate table/fields, §3.1 dual-lens audit table, §3.2 CI/CD stage table, §4.1 Go checklist, §4.2 Approve-path flow, §4.3 Conditional Go, and §5 No-Go/reject-path/flowchart all replaced with cross-references to `TEAM_4_GATEKEEPERS_GOVERNANCE_PHASE_09-12-2026.md`, `TEAM_4_GOVERNANCE_DEPLOYMENT_FORCE_ROLES_AND_PROTOCOL_09-12-2026.md`, `TEAM_4_CICD_DEPLOYMENT_AND_GO_NO_GO_09-12-2026.md`, `TEAM_4_GO_NO_GO_AUTHORITY_09-12-2026.md`, `TEAM_4_DEPLOYMENT_ORCHESTRATOR_GO_NO_GO_SIGNAL_SYNTHESIS_09-12-2026.md`, `TEAM_4_RISK_SIGNAL_GO_NO_GO_DECISIONS_09-12-2026.md`, `TEAM_4_VULNERABILITY_REPORT_AND_TEAM3_RESOLUTION_LOOP_09-12-2026.md`, and `TEAM_4_STANDARD_WORKFLOW_SEQUENTIAL_PROTOCOL_09-12-2026.md` (canonical owners) — §1 Mission/primary-output framing, §1.3 peer primary-output analogy table, §2.2 Master Orchestrator citation note, and §6 role-contribution table retained as this doc's distinct "Phase-4 primary output" contribution |

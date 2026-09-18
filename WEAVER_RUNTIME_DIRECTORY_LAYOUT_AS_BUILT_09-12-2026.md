@@ -2,12 +2,13 @@ FILE: WEAVER_RUNTIME_DIRECTORY_LAYOUT_AS_BUILT_09-12-2026.md
 CREATED BY: Grok AI Assistant
 DATE: 09-12-2026
 PROJECT: The-Weaver-Engine
-VERSION: 2.0.1-R2026
+VERSION: 2.0.2-R2026
 ===============================================================================
 
 Description:
 As-built weaver_runtime tree from disk compared to the master-spec aspirational
-layout. Calls out missing engine_core/, lineage_tree.json, and proxy_router.py;
+layout. Calls out present engine_core/, missing lineage_tree.json scaffold file,
+and missing proxy_router.py;
 documents live hooks, skills, blackboard, stdio responses, and vector_nodes
 metrics files from the automated logging suite.
 
@@ -18,6 +19,15 @@ metrics files from the automated logging suite.
 **System version:** 2.0.0-R2026  
 **Survey date:** 09-12-2026  
 **Root:** `/Users/reeazmahmud/sandbox/The-Weaver-Engine`
+**Documentation tier:** **As-built implementation/runbook**
+
+## Claim status snapshot
+
+| Claim class | Status |
+|-------------|--------|
+| File/directory presence listed from disk | **Implemented (observed)** |
+| `proxy_router.py` network layer | **Planned (absent)** |
+| Full Governance/Team automation over runtime | **Unverified / not implemented** |
 
 ---
 
@@ -66,8 +76,13 @@ The-Weaver-Engine/
     │   │   ├── crypto_sign.py
     │   │   └── polyglot_wrapper_cleanLogs.py
     │   ├── mcps/                          # empty directory
-    │   └── skills/
-    │       └── data_parser.md
+    │   ├── skills/
+    │   │   └── data_parser.md
+    │   └── engine_core/
+    │       ├── __init__.py
+    │       ├── language_converter.py
+    │       ├── module_adapter.py
+    │       └── module_loader.py
     ├── 2_universal_memory_weaver/
     │   ├── blackboard.json
     │   └── vector_nodes/
@@ -87,7 +102,7 @@ Top-level Python modules implement loader/adapter/converter/coordinator/logging 
 
 | Spec path | Status on disk | Notes |
 |-----------|----------------|-------|
-| `1_universal_modules_weaver/engine_core/` | **Missing** | No subdirectory. Adapter/converter/loader live in top-level `.py` files (`weaver_gateway_pipeline.py`, `weaver_system_extension.py`, `weaver_core.py`), not under runtime `engine_core/`. |
+| `1_universal_modules_weaver/engine_core/` | **Present** | Runtime `engine_core/` exists and contains modular loader/converter/adapter (`module_loader.py`, `language_converter.py`, `module_adapter.py`, `__init__.py`). |
 | `2_universal_memory_weaver/lineage_tree.json` | **Missing** (may appear later) | Not present at survey time. `CentralCoordinator.log_lineage_evolution()` creates it when a skill is forged (e.g. missing skill during coordinator or integration runs). |
 | `3_universal_gateway_server/proxy_router.py` | **Missing** | No network proxy. Ingest is simulated via `UniversalGatewayServer.submit_incoming_network_request()` and an in-process queue. |
 
@@ -153,4 +168,4 @@ Additional `response_*.json` files appear when other packet ids are processed (e
 
 ## Summary
 
-The as-built runtime realizes the **three pillars**, sample skill, hooks, blackboard, stdio responses, and (after the logging suite runs) vector_nodes metrics/dashboard files. It does **not** yet include aspirational `engine_core/`, on-disk `proxy_router.py`, or a committed `lineage_tree.json` until coordinator lineage logging runs. Logic that the blueprint places under `engine_core/` and `proxy_router.py` currently lives in the project-root Python modules (including `weaver_logging_suite.py`).
+The as-built runtime realizes the **three pillars**, sample skill, hooks, blackboard, stdio responses, and (after the logging suite runs) vector_nodes metrics/dashboard files. It does **not** yet include on-disk `proxy_router.py`, or a committed `lineage_tree.json` until coordinator lineage logging runs. `engine_core/` now exists as a runtime module package while legacy counterparts still exist in project-root Python modules.

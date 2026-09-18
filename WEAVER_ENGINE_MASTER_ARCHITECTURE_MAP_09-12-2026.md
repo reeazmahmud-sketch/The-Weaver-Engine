@@ -2,7 +2,7 @@ FILE: WEAVER_ENGINE_MASTER_ARCHITECTURE_MAP_09-12-2026.md
 CREATED BY: Admin (prepared) / Grok AI Assistant (filed)
 DATE: 09-12-2026
 PROJECT: The-Weaver-Engine
-VERSION: 2.0.2-R2026
+VERSION: 2.0.3-R2026
 ===============================================================================
 
 Description:
@@ -24,8 +24,17 @@ instead of reprinting them.
 **Classification:** Advanced Metamorphic Multi-Agent Framework  
 **Project root:** `/Users/reeazmahmud/sandbox/The-Weaver-Engine`  
 **Date:** 09-12-2026
+**Documentation tier:** **As-built + boundary architecture map**
 
 This map is the structural companion to the master specification. It shows **process boundaries**, **data flows**, **operational directory scaffolding**, and the **structural live lifecycle stream**. Where the on-disk tree differs from the blueprint, this document says so plainly (aspirational vs as-built).
+
+## Claim status snapshot
+
+| Claim class | Status |
+|-------------|--------|
+| Runtime topology and artifact presence | **Implemented (as-built)** |
+| Multi-channel routing and proxy router | **Planned (not on disk)** |
+| Self-heal timing charts cited from master spec | **Unverified here (cite-only)** |
 
 ### Cross-links
 
@@ -60,12 +69,11 @@ This map is the structural companion to the master specification. It shows **pro
                                     ▼
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │  PROCESS BOUNDARY B — UNIVERSAL MODULES WEAVER (execution primitives)        │
-│  As-built: top-level .py modules + skills/ hooks/ mcps/ under pillar 1       │
-│  Aspirational: 1_universal_modules_weaver/engine_core/  ← NOT ON DISK YET    │
+│  As-built: skills/ hooks/ mcps/ plus runtime engine_core/ under pillar 1     │
+│  Legacy mirrors: top-level .py modules remain in project root                 │
 │                                                                              │
 │   skills/   playbooks (.md)          hooks/   language-native middleware     │
-│   mcps/     MCP / stdio configs      (engine_core aspirational: Loader,      │
-│                                       Converter, Adapter pipelines)          │
+│   mcps/     MCP / stdio configs      engine_core/ loader, converter, adapter │
 │                                                                              │
 │   weaver_core.py .............. bootstrap + loom-state + chaos self-heal     │
 │   weaver_system_extension.py .. console + UniversalLanguageConverter         │
@@ -126,7 +134,7 @@ Six root `.py` modules + doc set, plus `weaver_runtime/` three pillars with live
 
 | Blueprint path / component | Status | Reality |
 |----------------------------|--------|---------|
-| `1_universal_modules_weaver/engine_core/` | **Aspirational — not on disk** | Loader / converter / adapter live in project-root Python (`weaver_core.py`, `weaver_system_extension.py`, `weaver_gateway_pipeline.py`), not under an `engine_core/` package. |
+| `1_universal_modules_weaver/engine_core/` | **As-built (present)** | Runtime package exists with loader/converter/adapter modules; legacy project-root module counterparts still exist. |
 | `3_universal_gateway_server/proxy_router.py` | **Aspirational — not on disk** | **Canonical detail — cite, do not restate:** [`WEAVER_RUNTIME_DIRECTORY_LAYOUT_AS_BUILT_09-12-2026.md`](WEAVER_RUNTIME_DIRECTORY_LAYOUT_AS_BUILT_09-12-2026.md) → Gaps table, `proxy_router.py` row. |
 | `2_universal_memory_weaver/lineage_tree.json` | **Ephemeral / on mutation** | Not a committed scaffold artifact. `CentralCoordinator.log_lineage_evolution()` creates it when a skill is forged or a structure delta is logged. |
 | Three pillars + skills/hooks/blackboard/stdio | **As-built** | Present after `weaver_core.bootstrap_environment`; see as-built layout doc. |
@@ -172,7 +180,7 @@ As-built: `weaver_core.py` loom-state + chaos simulation (finite demo; not a per
 
 | Option | Status (09-12-2026) | Intent / implication |
 |--------|---------------------|----------------------|
-| **A — Docker Compose isolation** | **Still open** — not built | Package pillars / gateway / coordinator as compose services for portable, machine-agnostic runs. Stronger process boundaries and deploy parity; aligns with twin-pillar portability (zip / flash / relocate). Does not replace missing `proxy_router.py` / `engine_core/` by itself. |
+| **A — Docker Compose isolation** | **Still open** — not built | Package pillars / gateway / coordinator as compose services for portable, machine-agnostic runs. Stronger process boundaries and deploy parity; aligns with twin-pillar portability (zip / flash / relocate). Does not replace missing `proxy_router.py` or other planned-but-absent components by itself. |
 | **B — Automated Logging Suite** | **Implemented** (as of 09-12-2026) | `weaver_logging_suite.py` (`AutomatedLoggingSuite`) harvests blackboard telemetry into `vector_nodes/performance_metrics.json` and ASCII `uptime_dashboard.txt`. See [`WEAVER_ENGINE_AUTOMATED_LOGGING_SUITE_09-12-2026.md`](WEAVER_ENGINE_AUTOMATED_LOGGING_SUITE_09-12-2026.md). |
 | **C — Runtime / tree cleanup** | **Still open** | Further as-built vs aspirational cleanup (`engine_core/`, `proxy_router.py`, empty scaffolds) remains Admin-directed. |
 
@@ -193,6 +201,7 @@ As-built: `weaver_core.py` loom-state + chaos simulation (finite demo; not a per
 
 | Field | Value |
 |-------|--------|
-| Version | 2.0.2-R2026 |
+| Version | 2.0.3-R2026 |
 | Prior | 2.0.1-R2026 (Automated Logging Suite open-decision update) |
+| Changes in 2.0.3 | Re-baselined as-built Boundary B and §2.3 honesty table to reflect that runtime `engine_core/` is present on disk; retained `proxy_router.py` and runtime-wiring gaps as planned/not-built. |
 | Changes in 2.0.2 | **Corpus dedup (Cluster F):** §2.1/§2.2 full trees condensed to summaries + cross-reference to canonical `WEAVER_RUNTIME_DIRECTORY_LAYOUT_AS_BUILT_09-12-2026.md`; §2.3 `proxy_router.py` gap sentence cross-references the same file's Gaps table instead of restating it; the O(N)-vs-O(1) context-window diagram and the T+0/T+3/T+12/T+14ms self-heal timing diagram now cross-reference `WEAVER_ENGINE_MASTER_SPECIFICATION_AND_PRODUCTION_BLUEPRINT_09-10-2026.md` instead of reprinting them verbatim |

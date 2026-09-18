@@ -2,7 +2,7 @@ FILE: WEAVER_ENGINE_ARCHETYPE_v2_TARGET_REPOSITORY_LAYOUT_09-12-2026.md
 CREATED BY: Admin (prepared) / Grok AI Assistant (filed)
 DATE: 09-12-2026
 PROJECT: The-Weaver-Engine
-VERSION: 1.0.1
+VERSION: 1.0.2
 ===============================================================================
 
 Description:
@@ -10,9 +10,9 @@ Target (aspirational) Master Repository Directory Layout for The Weaver Engine
 Archetype v2.0.0-R2026 — filed docs-only. Honest gap table vs Phase-0 as-built
 under The-Weaver-Engine/. Does not create missing code, MCP servers, MALS
 runners, or Docker. Companion to WEAVER_RUNTIME_DIRECTORY_LAYOUT_AS_BUILT.
-v1.0.1: corpus dedup (Cluster F) — §2 gap table now cross-references
-WEAVER_RUNTIME_DIRECTORY_LAYOUT_AS_BUILT for base as-built facts (engine_core/,
-proxy_router.py, lineage_tree.json, mcps/ empty, blackboard.json/crypto_sign.py/
+v1.0.2: rebaseline update — §2 gap table cross-references
+WEAVER_RUNTIME_DIRECTORY_LAYOUT_AS_BUILT for base as-built facts (engine_core/
+present, proxy_router.py missing, lineage_tree.json ephemeral, mcps/ empty, blackboard.json/crypto_sign.py/
 data_parser.md/vector_nodes/stdio present); novel Archetype v2 target-only rows
 (initialize_framework.py, mals_integration_challenge.py, mals_dashboard.py,
 Team-4-class engine_core auditors, etc.) preserved unchanged.
@@ -25,10 +25,19 @@ Team-4-class engine_core auditors, etc.) preserved unchanged.
 **System label:** The Weaver Engine Archetype **v2.0.0-R2026**  
 **Filed:** 09-12-2026  
 **Canonical project root (as-built):** `The-Weaver-Engine/` under the sandbox  
+**Documentation tier:** **Aspirational roadmap/target**
 **As-built companion:** [`WEAVER_RUNTIME_DIRECTORY_LAYOUT_AS_BUILT_09-12-2026.md`](WEAVER_RUNTIME_DIRECTORY_LAYOUT_AS_BUILT_09-12-2026.md)  
 **Architecture map:** [`WEAVER_ENGINE_MASTER_ARCHITECTURE_MAP_09-12-2026.md`](WEAVER_ENGINE_MASTER_ARCHITECTURE_MAP_09-12-2026.md)  
 **Continue-here:** [`WEAVER_ENGINE_CONTINUE_HERE_09-12-2026.md`](WEAVER_ENGINE_CONTINUE_HERE_09-12-2026.md)  
 **Docker:** Deferred — out of scope until Admin reopens  
+
+## Claim status snapshot
+
+| Claim class | Status |
+|-------------|--------|
+| Target tree structure and named artifacts | **Planned** |
+| Present runtime artifacts cross-referenced to as-built survey | **Implemented (partial)** |
+| Security/performance guarantees in target wording | **Unverified until implemented and tested** |
 
 ---
 
@@ -105,7 +114,7 @@ Footnote from Admin paste retained as **goal language only**: “fully decoupled
 
 ## 2. Gap table — target vs as-built (survey 09-12-2026)
 
-**Base as-built gap facts — cite, do not restate:** [`WEAVER_RUNTIME_DIRECTORY_LAYOUT_AS_BUILT_09-12-2026.md`](WEAVER_RUNTIME_DIRECTORY_LAYOUT_AS_BUILT_09-12-2026.md) → "Gaps vs aspirational layout" table + "Live artifacts documented" section. That file is canonical for: `engine_core/` missing, `proxy_router.py` missing, `lineage_tree.json` ephemeral/on-mutation, `mcps/` present-but-empty, and the present-and-live status of `blackboard.json`, `hooks/crypto_sign.py`, `skills/data_parser.md`, `vector_nodes/performance_metrics.json`, `vector_nodes/uptime_dashboard.txt`, and `stdio_channels/response_tx_9001/9002.json`.
+**Base as-built gap facts — cite, do not restate:** [`WEAVER_RUNTIME_DIRECTORY_LAYOUT_AS_BUILT_09-12-2026.md`](WEAVER_RUNTIME_DIRECTORY_LAYOUT_AS_BUILT_09-12-2026.md) → "Gaps vs aspirational layout" table + "Live artifacts documented" section. That file is canonical for: runtime `engine_core/` present, `proxy_router.py` missing, `lineage_tree.json` ephemeral/on-mutation, `mcps/` present-but-empty, and the present-and-live status of `blackboard.json`, `hooks/crypto_sign.py`, `skills/data_parser.md`, `vector_nodes/performance_metrics.json`, `vector_nodes/uptime_dashboard.txt`, and `stdio_channels/response_tx_9001/9002.json`.
 
 The rows below are the **genuinely novel** Archetype v2 target artifacts — named in this doc only, not covered by the as-built survey above:
 
@@ -176,8 +185,9 @@ Building either file is a **separate Admin build order** (Create-then-Build / St
 
 | Field | Value |
 |-------|--------|
-| Version | 1.0.1 |
-| Prior | 1.0.0 (initial filing) |
+| Version | 1.0.2 |
+| Prior | 1.0.1 |
+| Changes in 1.0.2 | Rebased §2 canonical as-built statement to match current repository state (`engine_core/` present). Target-only missing artifacts remain unchanged and still tracked as planned. |
 | Changes in 1.0.1 | **Corpus dedup (Cluster F):** §2 gap table's base as-built rows (engine_core/, proxy_router.py, lineage_tree.json, mcps/ empty, blackboard.json/crypto_sign.py/data_parser.md/vector_nodes/stdio-present) replaced with a cross-reference to canonical `WEAVER_RUNTIME_DIRECTORY_LAYOUT_AS_BUILT_09-12-2026.md`; novel target-only rows (initialize_framework.py, mals_integration_challenge.py, mals_dashboard.py, skills/mcps/hooks targets, Team-4-class engine_core auditors, triage bus, etc.) preserved unchanged as this doc's distinct content |
 
 **End of file.** Target map only. Phase-0 partial. No Docker. No invented MALS/proxy code.
